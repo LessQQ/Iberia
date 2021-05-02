@@ -11,20 +11,20 @@
 #include <fstream>
 
 #include "IberiaIO.hpp"
-#include "json.hpp"
+//#include "json.hpp"
 
 #pragma once
 
 #define DllExport   __declspec( dllexport ) 
-using json = nlohmann::json;
+//using json = nlohmann::json;
 
 class IberiaJSON
 {
 public:
 	IberiaJSON();
 	~IberiaJSON();
-	bool WriteJSONFile(std::string fileName, json j);
-	json ReadJSONFile(std::string fileName);
-	std::string LoadJSON(std::string fileName);
+	//bool WriteJSONFile(std::string fileName, json j);
+	//json ReadJSONFile(std::string fileName);
+	//std::string LoadJSON(std::string fileName);
 };
 

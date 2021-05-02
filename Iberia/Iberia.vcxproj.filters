@@ -42,9 +42,6 @@
     <ClInclude Include="..\IberiaMisc.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\json.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Structs.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>

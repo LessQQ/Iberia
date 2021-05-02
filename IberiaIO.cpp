@@ -112,7 +112,7 @@ void IberiaIO::IndexLine(char *line, char *filename)
     newline.append(index);
     newline.append(tok);
     newline.append(line);
-    WriteLine(filename, strdup(newline.c_str()));
+    WriteLine(filename, _strdup(newline.c_str()));
 }
 
 void IberiaIO::FileDelete(const char * fileName)
@@ -127,15 +127,19 @@ void IberiaIO::MakeFolder(std::string folderName)
 	#elif __linux__
 	mkdir(folderName.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH);
 	#elif _WIN32
-	CreateDirectory(folderName.c_str(), NULL);
+	//CreateDirectory(folderName.c_str(), NULL);
+    _mkdir(folderName.c_str());
 	#endif
-
 }
 
 std::string IberiaIO::GetFolderName()
 {
     char buf[FILENAME_MAX];
+#if __APPLE__
     char* succ = getcwd(buf, FILENAME_MAX);
+#endif
+    char* succ = _getcwd(buf, FILENAME_MAX);
+
     if( succ ) 
         return std::string(succ);
     else

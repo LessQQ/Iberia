@@ -95,14 +95,15 @@ int IberiaMisc::CharToInt(char a[])
 int IberiaMisc::StringToInt(std::string str)
 {
     char a[sizeof(str) + 1];
-    strcpy(a, str.c_str());
+    strcpy_s(a, str.c_str());
     int result = CharToInt(a);
     return result;
 }
 
 char *IberiaMisc::StringToChar(std::string str)
 {
-    char* result = strcpy((char*)malloc(str.length() + 1), str.c_str());
+    //char* result = strcpy_s((char*)malloc(str.length() + 1), str.c_str());
+    char* result = &str[0];
     return result;
 }
 

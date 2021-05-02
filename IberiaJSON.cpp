@@ -16,6 +16,7 @@ IberiaJSON::~IberiaJSON()
 {
 }
 
+/*
 bool IberiaJSON::WriteJSONFile(std::string fileName, json j)
 {
 	// put the json in a string
@@ -42,26 +43,29 @@ bool IberiaJSON::WriteJSONFile(std::string fileName, json j)
 	else
 		return false;
 }
+*/
 
-json IberiaJSON::ReadJSONFile(std::string fileName)
+/*json IberiaJSON::ReadJSONFile(std::string fileName)
 {
 	// read a JSON file
 	std::ifstream ifile(fileName);
 
 	// JSON object
-	json j;
+	//json j;
 
 	// read the contents of the file
-	ifile >> j;
+	//ifile >> j;
 
 	// return it
-	return j;
+	//return j;
 }
+*/
 
+/*
 std::string IberiaJSON::LoadJSON(std::string fileName)
 {
 	// Load the raw json
-	json j = ReadJSONFile(fileName);
+	//json j = ReadJSONFile(fileName);
 
 	// deserialize it
 	std::string result = j.dump();
@@ -69,6 +73,7 @@ std::string IberiaJSON::LoadJSON(std::string fileName)
 	// return the string
 	return result;
 }
+*/
 
 
 

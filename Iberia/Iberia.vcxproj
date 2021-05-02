@@ -95,6 +95,7 @@
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
+      <AdditionalDependencies>getopt.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -158,7 +159,6 @@
     <ClInclude Include="..\IberiaIO.hpp" />
     <ClInclude Include="..\IberiaJSON.hpp" />
     <ClInclude Include="..\IberiaMisc.hpp" />
-    <ClInclude Include="..\json.hpp" />
     <ClInclude Include="..\Structs.hpp" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="pch.h" />
