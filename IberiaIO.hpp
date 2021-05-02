@@ -27,6 +27,7 @@
 #include <linux/limits.h>
 #elif _WIN32
 #include <Windows.h>
+#include <direct.h>
 #endif
 
 #include "IberiaMisc.hpp"
