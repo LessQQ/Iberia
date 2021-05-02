@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5470B8551F0DD07200520C2A /* Enums.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 5470B8461F0DD07200520C2A /* Enums.hpp */; };
+		5470B8561F0DD07200520C2A /* Global.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 5470B8471F0DD07200520C2A /* Global.hpp */; };
+		5470B8571F0DD07200520C2A /* Iberia.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5470B8481F0DD07200520C2A /* Iberia.cpp */; };
+		5470B8581F0DD07200520C2A /* Iberia.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 5470B8491F0DD07200520C2A /* Iberia.hpp */; };
+		5470B8591F0DD07200520C2A /* IberiaDataStore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5470B84A1F0DD07200520C2A /* IberiaDataStore.cpp */; };
+		5470B85A1F0DD07200520C2A /* IberiaDataStore.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 5470B84B1F0DD07200520C2A /* IberiaDataStore.hpp */; };
+		5470B85B1F0DD07200520C2A /* IberiaIO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5470B84C1F0DD07200520C2A /* IberiaIO.cpp */; };
+		5470B85C1F0DD07200520C2A /* IberiaIO.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 5470B84D1F0DD07200520C2A /* IberiaIO.hpp */; };
+		5470B85D1F0DD07200520C2A /* IberiaJSON.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5470B84E1F0DD07200520C2A /* IberiaJSON.cpp */; };
+		5470B85E1F0DD07200520C2A /* IberiaJSON.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 5470B84F1F0DD07200520C2A /* IberiaJSON.hpp */; };
+		5470B85F1F0DD07200520C2A /* IberiaMisc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5470B8501F0DD07200520C2A /* IberiaMisc.cpp */; };
+		5470B8601F0DD07200520C2A /* IberiaMisc.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 5470B8511F0DD07200520C2A /* IberiaMisc.hpp */; };
+		5470B8611F0DD07200520C2A /* json.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 5470B8531F0DD07200520C2A /* json.hpp */; };
+		5470B8621F0DD07200520C2A /* Structs.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 5470B8541F0DD07200520C2A /* Structs.hpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		54573F331F0DC4F900E0A2CB /* libIberia.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libIberia.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		5470B8461F0DD07200520C2A /* Enums.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Enums.hpp; sourceTree = "<group>"; };
+		5470B8471F0DD07200520C2A /* Global.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Global.hpp; sourceTree = "<group>"; };
+		5470B8481F0DD07200520C2A /* Iberia.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Iberia.cpp; sourceTree = "<group>"; };
+		5470B8491F0DD07200520C2A /* Iberia.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Iberia.hpp; sourceTree = "<group>"; };
+		5470B84A1F0DD07200520C2A /* IberiaDataStore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IberiaDataStore.cpp; sourceTree = "<group>"; };
+		5470B84B1F0DD07200520C2A /* IberiaDataStore.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IberiaDataStore.hpp; sourceTree = "<group>"; };
+		5470B84C1F0DD07200520C2A /* IberiaIO.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IberiaIO.cpp; sourceTree = "<group>"; };
+		5470B84D1F0DD07200520C2A /* IberiaIO.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IberiaIO.hpp; sourceTree = "<group>"; };
+		5470B84E1F0DD07200520C2A /* IberiaJSON.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IberiaJSON.cpp; sourceTree = "<group>"; };
+		5470B84F1F0DD07200520C2A /* IberiaJSON.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IberiaJSON.hpp; sourceTree = "<group>"; };
+		5470B8501F0DD07200520C2A /* IberiaMisc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IberiaMisc.cpp; sourceTree = "<group>"; };
+		5470B8511F0DD07200520C2A /* IberiaMisc.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IberiaMisc.hpp; sourceTree = "<group>"; };
+		5470B8531F0DD07200520C2A /* json.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = json.hpp; sourceTree = "<group>"; };
+		5470B8541F0DD07200520C2A /* Structs.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Structs.hpp; sourceTree = "<group>"; };
+		5470B8631F0DD0B900520C2A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54573F301F0DC4F900E0A2CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54573F2A1F0DC4F900E0A2CB = {
+			isa = PBXGroup;
+			children = (
+				5470B82B1F0DC46800520C2A /* Source */,
+				54573F341F0DC4F900E0A2CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54573F341F0DC4F900E0A2CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54573F331F0DC4F900E0A2CB /* libIberia.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5470B82B1F0DC46800520C2A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5470B8631F0DD0B900520C2A /* Info.plist */,
+				5470B8461F0DD07200520C2A /* Enums.hpp */,
+				5470B8471F0DD07200520C2A /* Global.hpp */,
+				5470B8481F0DD07200520C2A /* Iberia.cpp */,
+				5470B8491F0DD07200520C2A /* Iberia.hpp */,
+				5470B84A1F0DD07200520C2A /* IberiaDataStore.cpp */,
+				5470B84B1F0DD07200520C2A /* IberiaDataStore.hpp */,
+				5470B84C1F0DD07200520C2A /* IberiaIO.cpp */,
+				5470B84D1F0DD07200520C2A /* IberiaIO.hpp */,
+				5470B84E1F0DD07200520C2A /* IberiaJSON.cpp */,
+				5470B84F1F0DD07200520C2A /* IberiaJSON.hpp */,
+				5470B8501F0DD07200520C2A /* IberiaMisc.cpp */,
+				5470B8511F0DD07200520C2A /* IberiaMisc.hpp */,
+				5470B8531F0DD07200520C2A /* json.hpp */,
+				5470B8541F0DD07200520C2A /* Structs.hpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		54573F311F0DC4F900E0A2CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5470B8621F0DD07200520C2A /* Structs.hpp in Headers */,
+				5470B8611F0DD07200520C2A /* json.hpp in Headers */,
+				5470B85E1F0DD07200520C2A /* IberiaJSON.hpp in Headers */,
+				5470B85C1F0DD07200520C2A /* IberiaIO.hpp in Headers */,
+				5470B85A1F0DD07200520C2A /* IberiaDataStore.hpp in Headers */,
+				5470B8581F0DD07200520C2A /* Iberia.hpp in Headers */,
+				5470B8551F0DD07200520C2A /* Enums.hpp in Headers */,
+				5470B8561F0DD07200520C2A /* Global.hpp in Headers */,
+				5470B8601F0DD07200520C2A /* IberiaMisc.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		54573F321F0DC4F900E0A2CB /* Iberia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54573F371F0DC4F900E0A2CB /* Build configuration list for PBXNativeTarget "Iberia" */;
+			buildPhases = (
+				54573F2F1F0DC4F900E0A2CB /* Sources */,
+				54573F301F0DC4F900E0A2CB /* Frameworks */,
+				54573F311F0DC4F900E0A2CB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Iberia;
+			productName = Iberia;
+			productReference = 54573F331F0DC4F900E0A2CB /* libIberia.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54573F2B1F0DC4F900E0A2CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Robb Long";
+				TargetAttributes = {
+					54573F321F0DC4F900E0A2CB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = QFHUZ35UU8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 54573F2E1F0DC4F900E0A2CB /* Build configuration list for PBXProject "Iberia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 54573F2A1F0DC4F900E0A2CB;
+			productRefGroup = 54573F341F0DC4F900E0A2CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54573F321F0DC4F900E0A2CB /* Iberia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54573F2F1F0DC4F900E0A2CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5470B85B1F0DD07200520C2A /* IberiaIO.cpp in Sources */,
+				5470B85D1F0DD07200520C2A /* IberiaJSON.cpp in Sources */,
+				5470B8571F0DD07200520C2A /* Iberia.cpp in Sources */,
+				5470B85F1F0DD07200520C2A /* IberiaMisc.cpp in Sources */,
+				5470B8591F0DD07200520C2A /* IberiaDataStore.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		54573F351F0DC4F900E0A2CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		54573F361F0DC4F900E0A2CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		54573F381F0DC4F900E0A2CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = QFHUZ35UU8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		54573F391F0DC4F900E0A2CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = QFHUZ35UU8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54573F2E1F0DC4F900E0A2CB /* Build configuration list for PBXProject "Iberia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54573F351F0DC4F900E0A2CB /* Debug */,
+				54573F361F0DC4F900E0A2CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54573F371F0DC4F900E0A2CB /* Build configuration list for PBXNativeTarget "Iberia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54573F381F0DC4F900E0A2CB /* Debug */,
+				54573F391F0DC4F900E0A2CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54573F2B1F0DC4F900E0A2CB /* Project object */;
+}
