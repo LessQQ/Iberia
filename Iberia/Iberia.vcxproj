@@ -88,7 +88,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;IBERIA_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
     </ClCompile>
     <Link>
@@ -151,10 +151,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\Enums.hpp" />
+    <ClInclude Include="..\Global.hpp" />
+    <ClInclude Include="..\Iberia.hpp" />
+    <ClInclude Include="..\IberiaDataStore.hpp" />
+    <ClInclude Include="..\IberiaIO.hpp" />
+    <ClInclude Include="..\IberiaJSON.hpp" />
+    <ClInclude Include="..\IberiaMisc.hpp" />
+    <ClInclude Include="..\json.hpp" />
+    <ClInclude Include="..\Structs.hpp" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\Iberia.cpp" />
+    <ClCompile Include="..\IberiaDataStore.cpp" />
+    <ClCompile Include="..\IberiaIO.cpp" />
+    <ClCompile Include="..\IberiaJSON.cpp" />
+    <ClCompile Include="..\IberiaMisc.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

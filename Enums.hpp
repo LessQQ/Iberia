@@ -44,7 +44,7 @@ enum qqCommand
     PUSH,
     PULL,
     COMMIT,
-    ERROR
+    ERRORX
 };
 
 #endif /* StructsEnums_h */
