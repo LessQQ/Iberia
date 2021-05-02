@@ -133,7 +133,7 @@ DataNode IberiaMisc::StringToDataNode(std::string data, std::string token)
             searching = false;
         }
     } while (searching);
-    //while (std::string::npos != pos);
+
     return dn;
 }
 std::string IberiaMisc::DataNodeToString(DataNode data)
